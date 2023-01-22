@@ -27,7 +27,7 @@ beforeEach(() => {
 
 describe('App tests', () => {
   it('should contains the heading', () => {
-    render(<App />);
+    render(<App framework="React" />);
     const heading = screen.getByText('welcome.title');
     expect(heading).toBeInTheDocument();
   });

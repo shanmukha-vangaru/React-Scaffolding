@@ -20,7 +20,7 @@ i18next.init({
 reactDom.render(
   <React.StrictMode>
     <I18nextProvider i18n={i18next}>
-      <App />
+      <App framework="React" />
     </I18nextProvider>
   </React.StrictMode>,
   document.getElementById('root')
